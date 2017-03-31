@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Catamount Marketplace
+  host: Catamount-Marketplace
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
