@@ -4,7 +4,7 @@
 <script> 
  $(document).ready(function(){
     $("#studentEmail").change(function(){
-        alert($("#studentEmail").value);
+        alert($("#studentEmail").val());
     });
 });
  </script>
