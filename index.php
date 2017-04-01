@@ -3,6 +3,7 @@
 <?php include("top.php");?>
 
 <body>
+<?php include("header.php");?>
 	<table>
 		<tr>
 			<td style='width: 30%;'>
