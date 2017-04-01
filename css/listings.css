@@ -1,6 +1,5 @@
 .listingWrap {
     height: 500px;
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -23,8 +22,14 @@
     width: 300px;
     border: 2px solid black;
 }
-.searchListingsPage {
+.listingItemContainer > img {
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
 
+.searchListingsPage {
+    /*background-color: blue;*/
 }
 .searchListingsPage > input {
         width: 100%;
@@ -33,10 +38,12 @@
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('searchicon.png');
+    background-image: url('../images/searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+        color: black;
+        background-color: #ccc;
 }

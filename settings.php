@@ -5,10 +5,13 @@
     <h1 class="yourInfo"> Your Information </h1>
 
         <p class="first">
-        First Name test
+        First Name
         </p>
         <p class="last">
         Last Name
+        </p>
+        <p class="profilePic">
+        Profile Picture
         </p>
         <p class="netID">
         Your netID
