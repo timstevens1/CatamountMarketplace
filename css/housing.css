@@ -36,25 +36,19 @@ a {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ), url(../images/lofts.jpg);
+    ), url(../images/apartment.png);
 }
 .housingPageWrap > a:nth-child(2):hover {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ),url(../images/clothing.jpg);
+    ),url(../images/houses.png);
 }
 .housingPageWrap > a:nth-child(3):hover {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ), url(../images/sports.jpg);
-}
-.housingPageWrap > a:nth-child(4):hover {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url(../images/couch.jpg);
+    ), url(../images/lofts.png);
 }
 
 
@@ -62,7 +56,7 @@ a {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/lofts.jpg);
+    ), url(../images/apartment.png);
     background-position: center;
     background-size: cover;
 }
@@ -70,7 +64,7 @@ a {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/clothing.jpg);
+    ), url(../images/houses.png);
     background-position: center;
     background-size: cover;
 }
@@ -78,7 +72,7 @@ a {
         background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/sports.jpg);
+    ), url(../images/lofts.png);
     background-position: center;
     background-size: cover;
 }
