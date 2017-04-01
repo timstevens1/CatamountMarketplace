@@ -15,7 +15,7 @@
 </div>
 </a>
 
-<a class = "housingWrap" href="buySell.php">
+<a class = "housingWrap" href="housing.php">
 <div>
 <h1>Housing</h1>
 </div>
