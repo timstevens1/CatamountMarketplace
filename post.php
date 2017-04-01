@@ -32,7 +32,7 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         <h1> <?php print($postContent[0][3]); ?> </h1>
         <h3><?php print($postContent[0][6]); ?> </h3>
         <p><?php print($postContent[0][1]); ?> </p>
-        <a href="mailto:"<?php print($netId[0][0]); ?>"">Email User</a>
+        <a class="difButton" href="mailto:"<?php print($netId[0][0]); ?>"">Email User</a>
     </div>
 
     </div>
