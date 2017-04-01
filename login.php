@@ -19,7 +19,7 @@
     <label for ='studentEmail'> Enter Your Password </label>
     <input type='PASSWORD' name='password' placeholder='Enter your password'></input>
 
-    <button type ='submit' id='submitLogin' onclick='validateEmail()'> </button>
+    <button id='login-button' type ='submit' id='submitLogin' onclick='validateEmail()'> </button>
 
 	<label>Not registered? Please <a href="signUp.php">sign-up</a>!</label>
 </form>
