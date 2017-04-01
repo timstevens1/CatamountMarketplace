@@ -1,6 +1,6 @@
 <?php include("top.php");?>
 <?php include("header.php");?>
-<?php include("sendnotifications.php");?>
+<?php include("Twilio/sendnotifications.php");?>
 <?php
 $postId = array(1);
 $query	=	'SELECT	fnkNetId, fldDescription, fldLocation, fldTitle, fldCondition, fldPostDate, fldPrice,
@@ -36,21 +36,20 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         
         
         
-        
-        <a href="mailto:"<?php print($netId[0][0]); ?>"" class="difButton">Email User</a>
-            <!--general info div-->
         <?php
         $currentPage = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         
-       echo" <form method='post' action='". $currentPage ."'>
-            <input type='text' name='message'>
-            <input type='submit' value='click' name='submit'> 
-        ";
-        $phoneNumber = 16036671346;
-        if(isset($_POST['submit'])){
-             sendMessage;
+       echo" <form>
+            <input type='text' name='message' placeholder='let this seller know you're interested in buying their item or to ask them a question'>
+            <input type='submit' name='submit'>  ";
+        $postersPhoneNumber = 16036671346;
+        if(isset($_GET['submit'])){
+            $message = $_GET['message'];
+            if ($message != "" && $message != null){
+             sendMessage($postersPhoneNumber, 12345678111, $message);
              }
-        
+        }
+             $message = null;
         ?>
         
         
@@ -59,24 +58,34 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         <p class="genInfoP">
             <span>Location</span>
             <span><?php print($postContent[0][2]); ?> </span>
+                 <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
+            <span class="infoDescription">burlington </span>
         </p>
 
           <p class="genInfoP">
             <span>Date</span>
             <span><?php print($postContent[0][5]); ?></span>
+              <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
+              <span class="infoDescription">JUNE </span>
         </p>
          <p class="genInfoP">
             <span>Condition</span>
             <span><?php print($postContent[0][4]); ?></span>
+              <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
+              <span class="infoDescription">nice </span>
         </p>
          <p class="genInfoP">
             <span>Category</span>
             <span><?php print($postContent[0][7]); ?></span>
+              <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
+              <span class="infoDescription">sports </span>
         </p>
 
                  <p class="genInfoP">
             <span>Sub Category</span>
             <span><?php print($postContent[0][8]); ?></span>
+              <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
+              <span class="infoDescription">basketball</span>
         </p>
     </div>
     </div>

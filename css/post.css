@@ -52,6 +52,6 @@
 .genInfoP {
     width: 35%;
 }
-.genInfoP > span:nth-child(2) {
+.infoDescription {
     float: right;
 }
