@@ -2,7 +2,7 @@
 <?php include("top.php");?>
 <?php include("header.php");?>
 
-<form class="post" type ="POST">
+<form class = 'post' enctype="multipart/form-data" method = 'post' action = 'listings.php'>
 
             <legend>Create A Post</legend>
 
