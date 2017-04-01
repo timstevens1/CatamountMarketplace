@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="css/header.css" />
 	<link rel="stylesheet" href="css/template.css" />
 	<link rel="stylesheet" href="css/post.css" />
+	<link rel="stylesheet" href="css/user.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/settings.css" />
 </head>
 
 <body>
