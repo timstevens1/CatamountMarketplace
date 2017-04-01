@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/user.css" />
 	<link rel="stylesheet" href="css/footer.css" />
 	<link rel="stylesheet" href="css/settings.css" />
+	<link rel="stylesheet" href="css/listings.css" />
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
