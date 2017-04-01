@@ -46,9 +46,11 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     letter-spacing: 3px;
     position: absolute;
     right: 20px;
-    font-size: 50px;
-    bottom: 8px;
+    font-size: 58px;
+    text-transform: uppercase;
+    bottom: 18px;
     color: #007155;
+    text-transform: uppercase;
 }
 
 #toplinks{
@@ -99,7 +101,7 @@ a#signUpLink{
     height: 80%;
     margin: 10%;
 }
-#signUpLink:hover, #profileLink:hover, #settingsIcon{
+#signUpLink:hover, #profileLink:hover, #settingsIcon:hover{
     background-color: #007155;
 }
 
