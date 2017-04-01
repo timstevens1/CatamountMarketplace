@@ -44,11 +44,10 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     line-height: 45px;
     width:10%;
     text-align: center;
-}
-#settingsIcon{
-    height: 32.5%;
-    margin-right: 5px;
-    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 8px 0px 8px;
 }
 
 #signUpLink{
@@ -56,16 +55,35 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     background-color: lawngreen;
     height: 32.5%;
     line-height: 45px;
-    width: 10%;
-    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0px 8px 0px 16px;
 }
+#settingsIcon{
+    height: 32.5%;
+    float: right;
+    background-color: lawngreen;
+    padding: 0px 16px 0px 8px;
+
+}
+#settingsIcon img {
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
 .navBar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
 
 }
 .navBar  li {

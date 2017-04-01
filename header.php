@@ -1,8 +1,9 @@
 <div class="banner">
     <img id="headerLogo" src="images/uvmheaderlogo.svg" alt="" />
+    <a id="settingsIcon" href="settings.php"> <img src="images/settingsicon.png"> </a>
     <a id="profileLink" href="user.php">your profile</a>
     <a id="signUpLink" href="signUp.php">sign up</a>
-    <a href="settings.php"> <img id="settingsIcon" src="images/settingsicon.png"> </a>
+
 </div>
 
     <ul class="navBar">
