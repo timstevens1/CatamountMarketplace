@@ -5,15 +5,18 @@
 
     <div class="userHeader">
         <div class="profPic">
-                <img></img>
+                <img src="images/defaultProf.png"></img>
+        </div>
+        <div class="name">
+                <p> First Name Last Name </p>
         </div>
         
     </div>
 
     <div class="userBody">
-        <p>
+        <h1>
             Postings
-        </p>
+        </h1>
     </div>
 
 
