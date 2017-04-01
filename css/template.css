@@ -5,6 +5,9 @@
 a {
     cursor: pointer;
 }
+p, span, a, div {
+    font-family: "adelle-sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 .mainWrap {
     height: 500px;
     display: flex;
@@ -90,6 +93,24 @@ a {
     background-size: cover;
 }
 
-
-
+.newsWrap {
+       margin-top: 250px;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.watsonPictureInfo {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.watsonPictureInfo li {
+    padding: 10px;
+}
 

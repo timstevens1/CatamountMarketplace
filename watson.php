@@ -54,7 +54,7 @@ function watsonClassify($file_path)
 
 	return $classes;
 }
-var_dump(watsonClassify("fruitbowl.jpg"));
+// var_dump(watsonClassify("fruitbowl.jpg"));
 
 /*{
   "url": "https://gateway-a.watsonplatform.net/visual-recognition/api",
