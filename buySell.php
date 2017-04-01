@@ -2,7 +2,7 @@
 <?php include("top.php");?>
 <?php include("header.php");?>
 
-<div class="buySellWrap">
+<div class="buySellPageWrap">
 <a class="electronicWrap" href="https://www.w3schools.com">
 <div>
 <h1>Electronics</h1>
