@@ -94,7 +94,7 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
     </div>
 </div>
     <div class="newsWrap">
-   
+    <h1>Watson Generated Meta Tags</h1>
     <?php $x = watsonClassify("images/$pic.jpg");
              ?>
              

@@ -101,8 +101,7 @@ p, span, a, div {
 }
 
 .newsWrap {
-       margin-top: 250px;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,6 +110,7 @@ p, span, a, div {
     margin-right: auto;
     background-color:#ccc;
     color: black;
+    text-align: center;
 }
 .watsonPictureInfo {
     list-style-type: none;
