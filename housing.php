@@ -2,6 +2,8 @@
 <?php include("header.php");?>
 
 <div class="housingPageWrap">
+  
+<h1 class="housingTitle">Housing</h1>
 
 <a class="apartments" href="listings.php">
 <div>
