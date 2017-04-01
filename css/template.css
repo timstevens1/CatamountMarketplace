@@ -122,5 +122,6 @@ p, span, a, div {
 }
 .watsonPictureInfo li {
     padding: 10px;
+    padding-top: 5px;
 }
 

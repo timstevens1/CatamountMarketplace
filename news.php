@@ -9,6 +9,7 @@
     <?php $x = WatsonNews();?>
              
   <ul class= "watsonPictureInfo">
+  <li id="providedby"> provided by Bluemix's Alchemist news platform </li>
       <?php foreach($x as $id => $text): ?>
         <li><?= $text ?></li>
       <?php endforeach ?>

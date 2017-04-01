@@ -7,3 +7,10 @@ h1.newsInfo{
 div.newsWrap {
     background-color: #ADD8E6;
 }
+
+#providedby{
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}
