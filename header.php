@@ -7,6 +7,11 @@
 </div>
 
     <ul class="navBar">
+        <li><form class="searchListingsPage">
+            <input type="text" name="search" placeholder="Search..">
+            </form>
+        </li>
+ 
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
