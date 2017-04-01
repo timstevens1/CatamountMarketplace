@@ -1,6 +1,5 @@
 .listingWrap {
     height: 500px;
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -23,8 +22,14 @@
     width: 300px;
     border: 2px solid black;
 }
-.searchListingsPage {
+.listingItemContainer > img {
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
 
+.searchListingsPage {
+    /*background-color: blue;*/
 }
 .searchListingsPage > input {
         width: 100%;
@@ -39,4 +44,6 @@
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+        background-color: blue;
+        color: white;
 }
