@@ -1,20 +1,9 @@
 <?php
-        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
-        //
-        // inlcude all libraries. 
-        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 
        print "<!-- require Database.php -->";
        //include ('constants.php');
        require ('database.php');
-       
-
-
-        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
-        //
-        // Set up database connection
-        //
-        // generally you dont need the admin on the web
+    
 
         print "<!-- make Database connections -->"; 
         $dbName = 'CKWESTON_CATLIST';
