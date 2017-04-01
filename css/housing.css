@@ -12,7 +12,8 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-        margin: 40px 20px 0 20px;
+    margin: 40px 20px 0 20px;
+    padding-top: 200px;
 }
 .housingPageWrap > a {
     width: 24%;

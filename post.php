@@ -3,7 +3,8 @@
 <?php include("Twilio/sendnotifications.php");?>
 <?php include("watson.php"); ?>
 <?php
-$postId = array(1);
+$postId = array($_GET['id']);
+$pic = $_GET['img'];
 $query	=	'SELECT	fnkNetId, fldDescription, fldLocation, fldTitle, fldCondition, fldPostDate, fldPrice,
 fldCategory, fldSubCategory FROM tblPost WHERE pmkPostId = ?';
 //public	function	select($query,	$values	=	"",	$wheres	=	1,	$conditions	=	0,
@@ -28,7 +29,7 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
 <div class="itemWrap">
     <div class="topItemWrap">
     <div>
-        <img src="../images/placeHolder.png" alt="">
+        <img src="../images/<?php echo $pic;?>.jpg" alt="">
     </div>
     <div>
         <h1><?php print($postContent[0][3]); ?></h1>
