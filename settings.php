@@ -4,36 +4,36 @@
 <div class="settingsWrap">
     <h1 class="yourInfo"> Your Information </h1>
 
-        <p class="first">
+        <li class="first">
         First Name
-        </p>
-        <p class="last">
+        </li>
+        <li class="last">
         Last Name
-        </p>
-        <p class="profilePic">
+        </li>
+        <li class="profilePic">
         Profile Picture
-        </p>
-        <p class="netID">
+        </li>
+        <li class="netID">
         Your netID
-        </p>
-        <p class="email">
+        </li>
+        <li class="email">
         Your email
-        </p>
-        <p class="graduationYear">
+        </li>
+        <li class="graduationYear">
         Your graduation year
-        </p>
-        <p class="gender">
+        </li>
+        <li class="gender">
         Your gender
-        </p>
-        <p class="location">
+        </li>
+        <li class="location">
         Your location
-        </p>
-        <p class="password">
+        </li>
+        <li class="password">
         Your password
-        </p>
-        <p class="joinDate">
+        </li>
+        <li class="joinDate">
         Your join date 
-        </p>
+        </li>
 
 </div>
 
