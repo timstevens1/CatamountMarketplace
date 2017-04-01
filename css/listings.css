@@ -23,12 +23,22 @@
     width: 300px;
     border: 2px solid black;
 }
-.listingItemContainer > img {
+.listingItemContainer a {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.listingItemContainer a > img {
     position: relative;
     height: 70%;
     width: 100%;
 }
-
+.listingItemContainer h3 {
+    z-index: 9999;
+    
+}
 .searchListingsPage {
     /*background-color: blue;*/
 }

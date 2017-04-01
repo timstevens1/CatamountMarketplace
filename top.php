@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <?php     print "<!-- require Database.php -->";
-       //include ('constants.php');
+       include ('constants.php');
        require ('database.php');
     
 
@@ -23,7 +23,7 @@
         $whichPass = "a";
         $thisDatabaseAdmin = new Database($dbUserName, $whichPass, $dbName);
     
-        
+        print "<!-- Database connections successfull -->"; 
         ?> 
 
 <html>
