@@ -35,7 +35,7 @@ for ($i=0; $i<$length; $i++){
 	
 	
 	echo "<div class='listingItemContainer'>";
-    echo "<a href='specificItem.php'>";
+    echo "<a href='post.php?id=".$pmkArray[$i]."&img=".($i+1)."'>";
 	echo "<img src='/images/". ($i+1) .".jpg' alt=''>";
 	echo "    </a>";
 	echo "    <h3>".$item[0][0]." </h3>";
