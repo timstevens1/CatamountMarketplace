@@ -11,7 +11,7 @@ background-color: #007155;
 position: fixed;
 top:0;
 left:0;
-z-index: 9999;
+z-index: 9988;
 
   box-sizing: border-box;
   transform: translateY(-150%);
@@ -112,7 +112,7 @@ a#signUpLink{
     transform: translateX(-200%);
     animation-delay: 1s;
     animation: at-nav-slide-in 1.5s ease forwards;
-    z-index: 9999;
+    z-index: 9988;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -151,6 +151,13 @@ a#signUpLink{
     padding: 14px 16px;
     text-decoration: none;
 }
+.navBar li a:hover {
+background-color: #3B4B54;
+z-index: 9999;
+-moz-box-shadow:    0px 5px 5px 0px #3B4B54;
+-webkit-box-shadow: 0px 5px 5px 0px #3B4B54;
+box-shadow:         0px 5px 5px 0px #3B4B54;
+}
 
 #searchBar{
     float: left;
@@ -176,4 +183,6 @@ a#signUpLink{
     width: 200%;
     background-image: none;
 }
+
+
 
