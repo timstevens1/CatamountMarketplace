@@ -2,7 +2,7 @@
 
 function WatsonNews()
 {
-    $url = "https://gateway.watsonplatform.net/discovery/api/v1/environments/f7f9bb64-0747-45dd-bb4b-9ac5ee4c14e7/collections/bc727adc-7b96-48cf-a0b5-64d9e100a926/query?version=2016-11-07&query=relations.action.lemmatized:acquire&count=1&filter=entities.text:Vermont&return=text";
+    $url = "https://gateway.watsonplatform.net/discovery/api/v1/environments/f7f9bb64-0747-45dd-bb4b-9ac5ee4c14e7/collections/bc727adc-7b96-48cf-a0b5-64d9e100a926/query?version=2016-11-07&query=relations.action.lemmatized:acquire&count=3&filter=entities.text:Vermont&return=text";
 
     $curl = curl_init($url);
 
