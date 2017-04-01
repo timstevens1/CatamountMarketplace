@@ -3,10 +3,29 @@
 <?php include("header.php");?>
 
 <div class="mainWrap">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<a href="https://www.w3schools.com">
+<div>
+<h1>General Buy/Sell</h1>
+</div>
+</a>
+
+<a href="https://www.w3schools.com">
+<div>
+<h1>School Supplies</h1>
+</div>
+</a>
+
+<a href="https://www.w3schools.com">
+<div>
+<h1>Housing</h1>
+</div>
+</a>
+
+<a href="https://www.w3schools.com">
+<div>
+<h1>Jobs</h1>
+</div>
+</a>
 </div>
 <?php include("footer.php"); ?>
 
