@@ -1,1 +1,9 @@
+div.profPic > img
+{
+background-image:url('defaultProf.png');
+}
 
+div.userBody {
+    width:70%;
+    margin:auto;
+}
