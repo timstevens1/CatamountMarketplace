@@ -1,7 +1,7 @@
 
   <div class="banner">
       <a id="headerlogolink" href="index.php"><img id="headerLogo" src="images/uvmheaderlogo.svg" alt="" /></a>		    
-      <h1 id="marketplacetitle">marketplace </h1>
+      <h1 id="marketplacetitle">student marketplace </h1>
       <div id="toplinks">
       <a id="settingsIcon" href="settings.php"> <img src="images/settingsicon.png"> </a>
       <a id="profileLink" href="user.php">your profile</a>		     
