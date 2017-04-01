@@ -4,7 +4,11 @@
 <script> 
  $(document).ready(function(){
     $("#studentEmail").change(function(){
-        alert($("#studentEmail").val());
+        var email = $("#studentEmail").val();
+        if(email.toLowerCase().indexOf("@uvm.edu") >= 0){
+        $("#studentEmail").css("background-color","Green");
+        }
+        
     });
 });
  </script>
@@ -21,8 +25,8 @@
     <input type="text" id="firstNameInput" name="firstName" placeholder="Enter your first name"></input>
     <label for="lastnameInput"> Enter Your Last Name </label>
     <input type="text" id="lastNameInput" name="lastName" placeholder="Enter your last name"></input>
-    <button type ='submit' id='submitLogin' onclick='validateEmail()'> </button>
-
+    <button type ='submit' id='submitLogin'>
+     </legend>
 </form>
 
 
