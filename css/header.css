@@ -7,7 +7,6 @@ position: fixed;
 top:0;
 left:0;
 
-  border-bottom: 1px solid #EEEEEE;
   box-sizing: border-box;
   transform: translateY(-150%);
   color: #FFFFFF;
@@ -39,15 +38,18 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
 
 #profileLink{
     float: right;
-    margin-right: 10px;
-    padding: 5px;
-    margin-top: 5px;
+    height: 32.5%;
+    background-color: lawngreen;
+    line-height: 45px;
+    width:10%;
+    text-align: center;
 }
 
 #signUpLink{
     float: right;
-    background-color: white;
-    margin-right: 10px;
-    padding: 5px;
-    margin-top: 5px;
+    background-color: lawngreen;
+    height: 32.5%;
+    line-height: 45px;
+    width: 10%;
+    text-align: center;
 }
