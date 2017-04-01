@@ -8,7 +8,7 @@
 
   		  
 <ul class="navBar">		     
-    <li><form class="searchListingsPage">
+    <li id="searchBar"><form class="searchBar">
         <input type="text" name="search" placeholder="Search..">
         </form>
     </li>

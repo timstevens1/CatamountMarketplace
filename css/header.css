@@ -99,13 +99,15 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     text-decoration: none;
 }
 
-.searchListingsPage > input {
-    width: 100%;
+#searchBar{
+    float: left;
+    height: 50px;
+}
+#searchBar input {
+    height: 50px;
+    border: solid black 0px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
     font-size: 16px;
-    background-color: white;
     background-image: url('../images/searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
@@ -115,3 +117,4 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     color: black;
     background-color: #ccc;
 }
+

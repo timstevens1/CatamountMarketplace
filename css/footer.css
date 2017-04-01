@@ -1,10 +1,7 @@
-div.footer {
-<<<<<<< HEAD
+div.footer > p{
   position: absolute;
-=======
->>>>>>> 9c3849ee2e88fdadaf7e01e67b88607f6d4d294b
   height: 30px;
-  bottom: 0;
+  bottom: 0px;
   background-color: white;
   color: black; 
   width: 100%;
