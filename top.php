@@ -6,7 +6,7 @@
         // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 
        print "<!-- require Database.php -->";
-       //include ('constants.php');
+       include ('constants.php');
        require ('database.php');
        
 
@@ -39,7 +39,7 @@
 
         
         
-        
+        print "<!-- Database connect successs -->";
         ?> 
 <html>
 <head>
