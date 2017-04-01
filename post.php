@@ -61,33 +61,33 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
             <span>Location</span>
             <span><?php print($postContent[0][2]); ?> </span>
                  <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
-            <span class="infoDescription">burlington </span>
+            <span class="infoDescription"></span>
         </p>
 
           <p class="genInfoP">
             <span>Date</span>
             <span><?php print($postContent[0][5]); ?></span>
               <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
-              <span class="infoDescription">JUNE </span>
+              <span class="infoDescription"></span>
         </p>
          <p class="genInfoP">
             <span>Condition</span>
             <span><?php print($postContent[0][4]); ?></span>
               <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
-              <span class="infoDescription">nice </span>
+              <span class="infoDescription"></span>
         </p>
          <p class="genInfoP">
             <span>Category</span>
             <span><?php print($postContent[0][7]); ?></span>
               <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
-              <span class="infoDescription">sports </span>
+              <span class="infoDescription"></span>
         </p>
 
                  <p class="genInfoP">
             <span>Sub Category</span>
             <span><?php print($postContent[0][8]); ?></span>
               <!-- HARDCODED EXAMPLE BELOW FOR STYLING -->
-              <span class="infoDescription">basketball</span>
+              <span class="infoDescription"></span>
         </p>
     </div>
     </div>
