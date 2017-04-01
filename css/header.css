@@ -100,7 +100,7 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
 }
 
 .searchListingsPage > input {
-        width: 100%;
+    width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -112,6 +112,6 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-        color: black;
-        background-color: #ccc;
+    color: black;
+    background-color: #ccc;
 }
