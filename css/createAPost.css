@@ -49,11 +49,12 @@ body form[name='signUpForm'] input, body form[name='signUpForm'] label{
 }
 
 #login-button {
+
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  margin: 0.5em;
+  /*margin: 0.5em;*/
   padding: 0 1.5em;
   border: 1px solid rgba(211,211,211,1);
   -webkit-border-radius: 0.2em;
