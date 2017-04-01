@@ -13,11 +13,11 @@
 
     <legend>Login</legend>
 
-    <label for ='studentEmail'> Enter Your Username </label>
+    <label for ='studentEmail'> Enter Your Email </label>
     <input placeholder ='Enter your email' type="text" id="studentEmail" name="txtStudentEmail" value="@uvm.edu"></input>
 
     <label for ='studentEmail'> Enter Your Password </label>
-    <input placeholder ='Enter your email' type="text" id="studentEmail" name="txtStudentEmail" value="@uvm.edu"></input>
+    <input type='PASSWORD' name='password' placeholder='Enter your password'></input>
 
     <button type ='submit' id='submitLogin' onclick='validateEmail()'> </button>
 
