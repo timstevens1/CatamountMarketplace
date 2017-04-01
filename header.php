@@ -21,7 +21,6 @@
     <li><a href="news.php">News</a></li>		          
     <li><a href="buySell.php">Buy/Sell</a></li>	
     <li><a href="housing.php">Housing</a></li>	
-    <li><a href="createAPost.php">Create a Post</a></li>	
     <li><a href="https://www.ibm.com/cloud-computing/bluemix/?S_PKG=&cm_mmc=Search_Google-_-IBM+Cloud_Bluemix+Program-_-WW_US-_-bluemix_Exact_&cm_mmca1=000002FP&cm_mmca2=10001882&mkwid=e94a12c8-7cf6-462d-830f-a6ae8bf5bd42|401|832698&cvosrc=ppc.google.bluemix&cvo_campaign=IBM%20Cloud_Bluemix%20Program-WW_US&cvo_crid=184720147411&Matchtype=e">Built With Bluemix</a></li>	
 
 
