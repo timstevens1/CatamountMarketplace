@@ -6,7 +6,7 @@
     $("#studentEmail").change(function(){
         var email = $("#studentEmail").val();
         if(email.toLowerCase().indexOf("@uvm.edu") >= 0){
-        $("#studentEmail").css("background-color","light green");
+        $("#studentEmail").css("background-color","Green");
         }
         
     });
