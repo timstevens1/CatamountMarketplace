@@ -16,6 +16,7 @@
     <div class="userBody">
         <h1>
             Postings
+            
         </h1>
     </div>
 

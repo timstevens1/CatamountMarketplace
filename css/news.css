@@ -1,10 +1,9 @@
 h1.newsInfo{
-  background-color: lightblue;
-  margin-top: 200px:
+  margin-top: 200px;
+  text-align: center;
+  padding: 10px;
 }
 
 div.newsWrap {
     background-color: #ADD8E6;
-    height: 1100px;
-    margin-top: 200px;
 }
