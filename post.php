@@ -97,7 +97,7 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
     <h1>Watson Generated Meta Tags</h1>
     <?php 
             $str = "images/".$pic.".jpg";
-            $x = watsonClassify($str);
+            $x = watsonClassify("images/1.jpg");
              ?>
              
   <ul class= "watsonPictureInfo">
