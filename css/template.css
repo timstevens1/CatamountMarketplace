@@ -12,14 +12,19 @@
     align-items: center;
     margin-bottom: 40px;
 }
-.mainWrap > div {
+.mainWrap > a {
     width: 24%;
     border: 2px solid black;
     height: 200px;
     background: pink;
 }
-.mainWrap > div:nth-child(1) {
+.mainWrap > a:nth-child(1) {
     /*background-color: black;*/
+}
+.mainWrap > a > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
