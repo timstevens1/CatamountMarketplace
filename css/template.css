@@ -93,6 +93,9 @@ p, span, a, div {
     margin-top: 500px;
 }
 
+ul.watsonPictureInfo > li {
+    display: none;}
+
 .mainWrap .jobsWrap {
             background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
