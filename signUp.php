@@ -1,6 +1,13 @@
 
 <?php include("top.php");?>
 <?php include("header.php");?>
+<script> 
+ $(document).ready(function(){
+    $("#studentEmail").change(function(){
+        alert($("#studentEmail").value);
+    });
+});
+ </script>
 <div class="mainWrap">
 <form name ='signUpForm' action='signUp.php'>
 <label for ='studentEmail'> Enter Your UVM Email </label>
@@ -14,10 +21,4 @@
 <button type ='submit' id='submitLogin' onclick='validateEmail()'>
 </form>
 </div>
-<script> 
-  $('#studentEmail').bind('input', function() {
-    $(this).next().stop(true, true).fadeIn(0).html('[input event fired!]: ' + $(this).val()).fadeOut(2000);
-});
-  }
- </script>
 <?php include("footer.php"); ?>
