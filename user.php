@@ -1,7 +1,7 @@
 <?php include("top.php");?>
 <?php include("header.php");?>
 
-<div class="mainWrap">
+<div class="userWrap">
 
     <div class="userHeader">
         <div class="profPic">
