@@ -13,7 +13,7 @@
     <input type='PASSWORD' name='password' placeholder='Enter your password'></input>
 
 	<label>Not registered? Please <a href="signUp.php">sign-up</a>!</label>
-    <button id='login-button' name='submit' type ='submit' id='submitLogin''> </button>
+    <button id='login-button' name='submit' type ='submit' id='submitLogin''>Login</button>
 </form>
 
 <?php
