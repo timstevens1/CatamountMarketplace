@@ -49,6 +49,7 @@ body form[name='signUpForm'] input, body form[name='signUpForm'] label{
 }
 
 #login-button {
+
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -71,6 +72,7 @@ body form[name='signUpForm'] input, body form[name='signUpForm'] label{
   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  padding-left: .5cm
 }
 
 #login-button:hover {
