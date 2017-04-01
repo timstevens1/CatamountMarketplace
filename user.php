@@ -8,7 +8,7 @@
                 <img src="images/defaultProf.png"></img>
         </div>
         <div class="name">
-                <p> First Name Last Name </p>
+                <p> Lindsay Ross </p>
         </div>
         
     </div>
