@@ -178,4 +178,6 @@ echo '</script>';
 }
 }
 }
+
+?>
 <?php include("footer.php"); ?>
