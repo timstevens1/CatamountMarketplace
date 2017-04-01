@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-.banner{
-display: block;
-height: 500px;
-width: 100%;
-background-color: green;
-}
 .mainWrap {
     background-color: blue;
     height: 1000px;
