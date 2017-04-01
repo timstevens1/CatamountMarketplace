@@ -3,27 +3,27 @@
 <?php include("header.php");?>
 
 <div class="buySellPageWrap">
-<a class="electronicWrap" href="https://www.w3schools.com">
+<a class="electronicWrap" href="listings.php">
 <div>
 <h1>Electronics</h1>
 </div>
 </a>
 
-<a class="clothing" href="https://www.w3schools.com">
+<a class="clothing" href="listings.php">
 <div>
 <h1>Clothing</h1>
 </div>
 </a>
 
-<a class = "food" href="https://www.w3schools.com">
+<a class = "sportsEquipment" href="listings.php">
 <div>
-<h1>Food</h1>
+<h1>Sports Equipment</h1>
 </div>
 </a>
 
-<a class= "home" href="https://www.w3schools.com">
+<a class= "Furnature" href="listings.php">
 <div>
-<h1>Home</h1>
+<h1>Furnature</h1>
 </div>
 </a>
 </div>
