@@ -1,6 +1,6 @@
 .banner{
 display: block;
-height: 100px;
+height: 150px;
 width: 100%;
 background-color: green;
 position: fixed;
@@ -34,14 +34,14 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
 }
 
 #headerLogo{
-    height: 100px;
+    height: 150px;
 }
 
 #profileLink{
     float: right;
     margin-right: 10px;
     padding: 5px;
-    mar
+    margin-top: 5px;
 }
 
 #signUpLink{
@@ -49,4 +49,5 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     background-color: white;
     margin-right: 10px;
     padding: 5px;
+    margin-top: 5px;
 }
