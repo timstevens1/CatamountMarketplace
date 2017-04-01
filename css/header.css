@@ -8,7 +8,6 @@ top:0;
 left:0;
 
   border-bottom: 1px solid #EEEEEE;
-  padding: 10px;
   box-sizing: border-box;
   transform: translateY(-150%);
   color: #FFFFFF;
@@ -16,6 +15,12 @@ left:0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   animation: at-banner-slide-in 1s ease forwards;
+
+background-image: linear-gradient(bottom, white 67.5%, green 32.5%);
+background-image: -o-linear-gradient(bottom, white 67.5%, green 32.5%);
+background-image: -moz-linear-gradient(bottom, white 67.5%, green 32.5%);
+background-image: -webkit-linear-gradient(bottom, white 67.5%, green 32.5%);
+background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
 }
 
 @keyframes at-banner-slide-in {
@@ -35,10 +40,12 @@ left:0;
 #profileLink{
     float: right;
     margin-right: 10px;
+    padding: 5px;
 }
 
 #signUpLink{
     float: right;
     background-color: white;
     margin-right: 10px;
+    padding: 5px;
 }
