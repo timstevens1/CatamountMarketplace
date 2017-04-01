@@ -88,3 +88,6 @@ pre {
 	margin: 0;
 }
 
+div.footer > p{
+	display: none;
+}
