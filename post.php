@@ -34,8 +34,8 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         <p class = "addPadding"><?php print($postContent[0][1]); ?></p>
         <a href="mailto:"<?php print($netId[0][0]); ?>"" class="difButton">Email User</a>
             <!--general info div-->
-        <div class="genInfoWrap">
-        <p style="margin-top: 20px;" class="genInfoP">
+        <div style="margin-top: 30px;" class="genInfoWrap">
+        <p class="genInfoP">
             <span>Location</span>
             <span><?php print($postContent[0][2]); ?> </span>
         </p>
