@@ -1,30 +1,46 @@
 <!DOCTYPE html>
-<?php    
-print "<!-- require Database.php -->";
-       include ('constants.php');
+<?php
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+        //
+        // inlcude all libraries. 
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+
+       print "<!-- require Database.php -->";
+       //include ('constants.php');
        require ('database.php');
-    
+       
+
+
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+        //
+        // Set up database connection
+        //
+        // generally you dont need the admin on the web
+
         print "<!-- make Database connections -->"; 
-        $dbName = 'CKWESTON_CATLIST';
+        $dbName = 'ad_b97e9daadfe3206';
         
-        $dbUserName = 'ckweston' . '_reader';
+        $dbUserName = 'b7d08c2d63675f';
         $whichPass = "r"; //flag for which one to use.
         $thisDatabaseReader = new Database($dbUserName, $whichPass, $dbName);
         
        
         
-        $dbUserName = 'ckweston' . '_writer';
+        $dbUserName = 'b7d08c2d63675f';
         $whichPass = "w";
         $thisDatabaseWriter = new Database($dbUserName, $whichPass, $dbName);
         
         
         
-        $dbUserName = 'ckweston' . '_admin';
+        $dbUserName = 'b7d08c2d63675f';
         $whichPass = "a";
         $thisDatabaseAdmin = new Database($dbUserName, $whichPass, $dbName);
-    
-        print "<!-- Database connections successfull -->"; 
-        ?>
+        
+
+        
+        
+        
+        ?> 
 <html>
 <head>
 	<title>Catamount Marketplace</title>
