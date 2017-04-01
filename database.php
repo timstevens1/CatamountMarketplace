@@ -99,7 +99,7 @@
 class Database {
 
     public $db;
-    const DB_DEBUG = true;
+    const DB_DEBUG = false;
      
     public function __construct($dbUserName, $whichPass, $dbName) {
         $this->db = null;
@@ -128,7 +128,7 @@ class Database {
 
         $query = NULL;
 
-        $dsn = 'mysql:host=webdb.uvm.edu;dbname=';
+        $dsn = 'mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=';
 
         if (self::DB_DEBUG) {
             print "<p>Username: " . $dbUserName;

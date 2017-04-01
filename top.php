@@ -1,4 +1,46 @@
 <!DOCTYPE html>
+<?php
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+        //
+        // inlcude all libraries. 
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+
+       print "<!-- require Database.php -->";
+       //include ('constants.php');
+       require ('database.php');
+       
+
+
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+        //
+        // Set up database connection
+        //
+        // generally you dont need the admin on the web
+
+        print "<!-- make Database connections -->"; 
+        $dbName = 'ad_b97e9daadfe3206';
+        
+        $dbUserName = 'b7d08c2d63675f';
+        $whichPass = "r"; //flag for which one to use.
+        $thisDatabaseReader = new Database($dbUserName, $whichPass, $dbName);
+        
+       
+        
+        $dbUserName = 'b7d08c2d63675f';
+        $whichPass = "w";
+        $thisDatabaseWriter = new Database($dbUserName, $whichPass, $dbName);
+        
+        
+        
+        $dbUserName = 'b7d08c2d63675f';
+        $whichPass = "a";
+        $thisDatabaseAdmin = new Database($dbUserName, $whichPass, $dbName);
+        
+
+        
+        
+        
+        ?> 
 <html>
 <head>
 	<title>Catamount Marketplace</title>
@@ -11,6 +53,7 @@
 	<link rel="stylesheet" href="css/footer.css" />
 	<link rel="stylesheet" href="css/settings.css" />
 	<link rel="stylesheet" href="css/listings.css" />
+	<link rel="stylesheet" href="css/createAPost.css" />
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
