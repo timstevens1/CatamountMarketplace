@@ -1,15 +1,8 @@
 
 <?php include("top.php");?>
 <?php include("header.php");?>
-<script> 
- $(document).ready(function(){
-    $("#studentEmail").change(function(){
-        alert($("#studentEmail").val());
-    });
-});
- </script>
 
-<form name ='signUpForm' action='login.php'>
+<form name ='signUpForm' action='login.php' method="POST">
 
     <legend>Login</legend>
 
@@ -19,10 +12,14 @@
     <label for ='studentEmail'> Enter Your Password </label>
     <input type='PASSWORD' name='password' placeholder='Enter your password'></input>
 
-    <button id='login-button' type ='submit' id='submitLogin' onclick='validateEmail()'> </button>
-
 	<label>Not registered? Please <a href="signUp.php">sign-up</a>!</label>
+    <button id='login-button' name='submit' type ='submit' id='submitLogin''> </button>
 </form>
 
-
-<?php include("footer.php"); ?>
+<?php
+    if(isset($_POST['submit'])){
+        $query = "SELECT fldEmail FROM tblUser WHERE fldEmail = ?";
+        $selectUser = $thisDatabaseReader->testquery($query,$data,1);
+    }
+ include("footer.php"); 
+ ?>

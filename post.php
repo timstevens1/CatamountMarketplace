@@ -1,6 +1,7 @@
 <?php include("top.php");?>
 <?php include("header.php");?>
 <?php include("Twilio/sendnotifications.php");?>
+<?php include("watson.php"); ?>
 <?php
 $postId = array(1);
 $query	=	'SELECT	fnkNetId, fldDescription, fldLocation, fldTitle, fldCondition, fldPostDate, fldPrice,
@@ -90,6 +91,17 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
     </div>
     </div>
     </div>
+</div>
+    <div class="newsWrap">
+   
+    <?php $x = watsonClassify("images/electronics.jpg");
+             ?>
+             
+  <ul class= "watsonPictureInfo">
+      <?php foreach($x as $class => $score): ?>
+        <li><?= $class ?></li>
+      <?php endforeach ?>
+  </ul>
 </div>
 
 <?php include("footer.php"); ?>
