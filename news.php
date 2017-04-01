@@ -9,8 +9,8 @@
              ?>
              
   <ul class= "watsonPictureInfo">
-      <?php foreach($x as $class => $score): ?>
-        <li><?= $class ?></li>
+      <?php foreach($x as $id => $text): ?>
+        <li><?= $text ?></li>
       <?php endforeach ?>
   </ul>
 </div>
