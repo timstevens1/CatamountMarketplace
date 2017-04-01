@@ -13,7 +13,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-        margin: 0 20px 0 20px;
+        margin: 150px 20px 0 20px;
 }
 .buySellPageWrap > a {
     width: 24%;
@@ -37,55 +37,57 @@ a {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ), url(../images/buy-sell.jpg);
+    ), url(../images/electronics.jpg);
 }
 .buySellPageWrap > a:nth-child(2):hover {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ),url(../images/meeting.jpg);
+    ),url(../images/clothing.jpg);
 }
 .buySellPageWrap > a:nth-child(3):hover {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ), url(../images/housing.jpg);
+    ), url(../images/sports.jpg);
 }
 .buySellPageWrap > a:nth-child(4):hover {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ),url(../images/jobs.jpg);
+    ),url(../images/couch.jpg);
 }
-.buySellPageWrap .buySellWrap {
+
+
+.buySellPageWrap .electronicWrap {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/buy-sell.jpg);
+    ), url(../images/electronics.jpg);
     background-position: center;
     background-size: cover;
 }
-.buySellPageWrap .housingWrap {
+.buySellPageWrap .clothing {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/housing.jpg);
+    ), url(../images/clothing.jpg);
     background-position: center;
     background-size: cover;
 }
-.buySellPageWrap .meetingsWrap {
+.buySellPageWrap .sportsEquipment {
         background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/meeting.jpg);
+    ), url(../images/sports.jpg);
     background-position: center;
     background-size: cover;
 }
-.buySellPageWrap .jobsWrap {
+.buySellPageWrap .Furnature {
             background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../images/jobs.jpg);
+    ), url(../images/couch.jpg);
     background-position: center;
     background-size: cover;
 }

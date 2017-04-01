@@ -15,15 +15,15 @@
 </div>
 </a>
 
-<a class = "food" href="https://www.w3schools.com">
+<a class = "sportsEquipment" href="https://www.w3schools.com">
 <div>
-<h1>Food</h1>
+<h1>Sports Equipment</h1>
 </div>
 </a>
 
-<a class= "home" href="https://www.w3schools.com">
+<a class= "Furnature" href="https://www.w3schools.com">
 <div>
-<h1>Home</h1>
+<h1>Furnature</h1>
 </div>
 </a>
 </div>
