@@ -82,4 +82,8 @@ a {
     text-align: center;
 }
 
+br + div.images {
+    margin-left: -100px;
+    margin-top: 200px;
+}
 
