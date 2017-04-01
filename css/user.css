@@ -6,4 +6,5 @@ background-image:url('defaultProf.png');
 div.userBody {
     width:70%;
     margin:auto;
+    background-color: yellow;
 }
