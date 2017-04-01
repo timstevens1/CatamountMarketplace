@@ -1,6 +1,33 @@
-
-form.post {
-    margin-top: 200px;
-    width: 70%;
-    margin: auto;
+body {
+    margin: 40%;
+    margin: 50px auto;
+    width: 90%;
 }
+body form.post {
+    background-color: lightblue;
+    width: 60%;
+    margin: auto;
+    padding: .5cm .5cm .5cm .5cm;
+    border-radius: 0px;
+    margin-top: 200px;
+}
+
+fieldset{
+    border: none;
+}
+
+label {
+    color: #000000;
+    display: block;
+    font-size: 12pt;
+    text-align: left;}
+
+legend {
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size:14pt;
+    padding-bottom: .5em;
+}
+
+
