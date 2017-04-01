@@ -118,3 +118,4 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     background-color: #ccc;
 }
 
+#searchBar input:focus{}
