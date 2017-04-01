@@ -41,7 +41,7 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         <?php
         $currentPage = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         
-       echo" <form method ='POST' action = 'post.php?id=".$postId[0]."&img=".$pic."'>
+       echo" <form method ='POST' action = 'post.php?id=".$postId."&img=".$pic."'>
             <input type='text' name='message' placeholder='let this seller know you're interested in buying their item or to ask them a question'>
             <input type='submit' name='submit'>  ";
         $postersPhoneNumber = 16036671346;
@@ -95,7 +95,7 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
 </div>
     <div class="newsWrap">
    
-    <?php $x = watsonClassify("images/electronics.jpg");
+    <?php $x = watsonClassify("images/$pic.jpg");
              ?>
              
   <ul class= "watsonPictureInfo">
