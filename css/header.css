@@ -3,4 +3,27 @@ display: block;
 height: 100px;
 width: 100%;
 background-color: green;
+position: fixed;
+top:0;
+left:0;
+
+  border-bottom: 1px solid #EEEEEE;
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateY(-150%);
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: at-banner-slide-in 1s ease forwards;
+}
+
+@keyframes at-banner-slide-in {
+  0% {
+    transform: translateY(-150%);
+  }
+  
+  100% {
+    transform: translateY(0%);
+  }
 }
