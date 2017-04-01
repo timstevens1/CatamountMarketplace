@@ -12,15 +12,14 @@
     <label for ='studentEmail'> Enter Your Password </label>
     <input type='PASSWORD' name='password' placeholder='Enter your password'></input>
 
-    <button id='login-button' name='submit' type ='submit' id='submitLogin''> </button>
-
 	<label>Not registered? Please <a href="signUp.php">sign-up</a>!</label>
+    <button id='login-button' name='submit' type ='submit' id='submitLogin''> </button>
 </form>
+
 <?php
     if(isset($_POST['submit'])){
         $query = "SELECT fldEmail FROM tblUser WHERE fldEmail = ?";
-        $selectUser = $thisDatabaseReader->testquery($query,$data,1)
+        $selectUser = $thisDatabaseReader->testquery($query,$data,1);
     }
-
-
-<?php include("footer.php"); ?>
+ include("footer.php"); 
+ ?>
