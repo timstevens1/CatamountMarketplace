@@ -4,6 +4,7 @@
 <div class="housingPageWrap">
   
 <h1 class="housingTitle">Housing</h1>
+  <br>
 
 <a class="apartments" href="listings.php">
 <div>
