@@ -101,7 +101,6 @@ p, span, a, div {
 }
 
 .newsWrap {
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,12 +112,16 @@ p, span, a, div {
     text-align: center;
 }
 .watsonPictureInfo {
-    list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 25px;
+    text-align: left;
+    letter-spacing: 0.75px;
+    line-height: 20px;
 }
 .watsonPictureInfo li {
     padding: 10px;
+    padding-top: 5px;
 }
 
