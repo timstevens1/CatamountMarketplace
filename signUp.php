@@ -25,7 +25,7 @@
     <input type="text" id="firstNameInput" name="firstName" placeholder="Enter your first name"></input>
     <label for="lastnameInput"> Enter Your Last Name </label>
     <input type="text" id="lastNameInput" name="lastName" placeholder="Enter your last name"></input>
-    <button type ='submit' id='submitLogin'>
+    <button type ='submit' id='submitLogin'></button>
      </legend>
 </form>
 
