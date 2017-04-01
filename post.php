@@ -41,12 +41,12 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         <?php
         $currentPage = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         
-       echo" <form>
+       echo" <form method ='POST' action = 'post.php?id=".$postId[0]."&img=".$pic."'>
             <input type='text' name='message' placeholder='let this seller know you're interested in buying their item or to ask them a question'>
             <input type='submit' name='submit'>  ";
         $postersPhoneNumber = 16036671346;
-        if(isset($_GET['submit'])){
-            $message = $_GET['message'];
+        if(isset($_POST['submit'])){
+            $message = $_POST['message'];
             if ($message != "" && $message != null){
              sendMessage($postersPhoneNumber, 12345678111, $message);
              }
