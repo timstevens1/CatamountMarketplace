@@ -27,3 +27,12 @@ left:0;
     transform: translateY(0%);
   }
 }
+
+#headerLogo{
+    height: 100px;
+}
+
+#profileLink{
+    float: right;
+    margin-right: 10px;
+}
