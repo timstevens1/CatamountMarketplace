@@ -49,7 +49,7 @@ for ($i=0; $i<$length; $i++){
 	
 	echo "<div class='listingItemContainer'>";
     echo "<a href='specificItem.php'>";
-	echo "<img src='/pics/". ($i+1) .".jpg' alt=''>";
+	echo "<img src='/images/". ($i+1) .".jpg' alt=''>";
 	echo "    </a>";
 	echo "    <h3>".$item[0][0]." </h3>";
 	echo "    <h3>".$item[0][1]."</h3>";
