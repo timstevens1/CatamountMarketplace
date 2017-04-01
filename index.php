@@ -11,7 +11,7 @@
 
 <a href="https://www.w3schools.com">
 <div>
-<h1>School Supplies</h1>
+<h1>Communities</h1>
 </div>
 </a>
 

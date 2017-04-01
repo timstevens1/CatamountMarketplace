@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: 500px;
+    margin-top: 200px;
 }
 .topItemWrap {
     background-color: pink;
