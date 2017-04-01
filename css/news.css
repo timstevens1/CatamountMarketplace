@@ -3,5 +3,8 @@ h1.newsInfo{
   margin-top: 200px:
 }
 
-div.newsWrap{
-  background-color: lightblue;}
+div.newsWrap {
+    background-color: #ADD8E6;
+    height: 1100px;
+    margin-top: 200px;
+}
