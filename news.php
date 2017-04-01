@@ -8,6 +8,7 @@
    
     <?php $x = WatsonNews();?>
              
+             
   <ul class= "watsonPictureInfo">
       <?php foreach($x as $id => $text): ?>
         <li><?= $text ?></li>
