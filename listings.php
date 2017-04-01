@@ -1,19 +1,6 @@
 
 <?php include("top.php");?>
 <?php include("header.php");?>
-
-
-<?php
-
-
-
-
-?>
-
-
-
-<?php include("footer.php"); ?>
-
 <?php
 
 $query	=	'SELECT	pmkPostId FROM tblpost';
@@ -60,4 +47,4 @@ for ($i=0; $i<$length; $i++){
 
   </div>
 </div>
-	
+	<?php include("footer.php"); ?>
