@@ -5,7 +5,7 @@
 a {
     cursor: pointer;
 }
-.mainWrap {
+.buySellWrap {
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -15,49 +15,49 @@ a {
     margin-bottom: 40px;
         margin: 0 20px 0 20px;
 }
-.mainWrap > a {
+.buySellWrap > a {
     width: 24%;
     height: 200px;
     text-decoration: none !important;
 }
-.mainWrap > a:nth-child(1) {
+.buySellWrap > a:nth-child(1) {
     /*background-color: black;*/
 }
-.mainWrap > a > div {
+.buySellWrap > a > div {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
      color: white !important;
 }
-.mainWrap > a {
+.buySellWrap > a {
     transition: all ease-in-out 10s;
 }
-.mainWrap > a:nth-child(1):hover {
+.buySellWrap > a:nth-child(1):hover {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ), url(../images/buy-sell.jpg);
 }
-.mainWrap > a:nth-child(2):hover {
+.buySellWrap > a:nth-child(2):hover {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url(../images/meeting.jpg);
 }
-.mainWrap > a:nth-child(3):hover {
+.buySellWrap > a:nth-child(3):hover {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ), url(../images/housing.jpg);
 }
-.mainWrap > a:nth-child(4):hover {
+.buySellWrap > a:nth-child(4):hover {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url(../images/jobs.jpg);
 }
-.mainWrap .buySellWrap {
+.buySellWrap .buySellWrap {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -65,7 +65,7 @@ a {
     background-position: center;
     background-size: cover;
 }
-.mainWrap .housingWrap {
+.buySellWrap .housingWrap {
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -73,7 +73,7 @@ a {
     background-position: center;
     background-size: cover;
 }
-.mainWrap .meetingsWrap {
+.buySellWrap .meetingsWrap {
         background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -81,7 +81,7 @@ a {
     background-position: center;
     background-size: cover;
 }
-.mainWrap .jobsWrap {
+.buySellWrap .jobsWrap {
             background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
