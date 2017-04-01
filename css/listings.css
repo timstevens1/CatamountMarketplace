@@ -1,4 +1,42 @@
 .listingWrap {
     height: 500px;
-    background-color: blue;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.listingWrap > div {
+    position: relative;
+}
+.searchBarWrap {
+    background-color: black;
+    height: 200px;
+}
+.itemsListWrap {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.listingItemContainer {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.searchListingsPage {
+
+}
+.searchListingsPage > input {
+        width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
