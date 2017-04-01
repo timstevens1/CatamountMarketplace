@@ -8,7 +8,7 @@
        print "<!-- require Database.php -->";
        include ('constants.php');
        require ('database.php');
-       
+       session_start();
 
 
         // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
