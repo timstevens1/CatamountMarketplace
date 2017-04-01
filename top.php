@@ -3,4 +3,5 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/template.css" />
 </head>
