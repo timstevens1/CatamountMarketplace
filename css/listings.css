@@ -22,6 +22,7 @@
     height: 300px;
     width: 300px;
     border: 2px solid black;
+    margin: 15px;
 }
 .listingItemContainer a {
     padding: 0;
