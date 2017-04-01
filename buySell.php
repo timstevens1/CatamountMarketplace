@@ -1,8 +1,9 @@
 
 <?php include("top.php");?>
 <?php include("header.php");?>
-
+<h1 class="buySellTitle">Buy/Sell Items</h1>
 <div class="buySellPageWrap">
+
 <a class="electronicWrap" href="listings.php">
 <div>
 <h1>Electronics</h1>
@@ -23,7 +24,7 @@
 
 <a class= "Furnature" href="listings.php">
 <div>
-<h1>Furnature</h1>
+<h1>Furniture</h1>
 </div>
 </a>
 </div>
