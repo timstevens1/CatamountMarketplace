@@ -1,10 +1,23 @@
 div.profPic > img
 {
-background-image:url('defaultProf.png');
+background-image:'images/defaultProf.png';
 }
 
 div.userBody {
     width:70%;
     margin:auto;
-    background-color: yellow;
+    background-color: lightblue;
+    height:300px;
+    text-align: center;
+}
+
+div.userHeader div.profPic > img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 46%;
+}
+
+div.userHeader div.name p{
+    text-align: center;
 }
