@@ -1,19 +1,42 @@
-<div class="banner">
-    <img id="headerLogo" src="images/uvmheaderlogo.svg" alt="" />
-    <a id="settingsIcon" href="settings.php"> <img src="images/settingsicon.png"> </a>
-    <a id="profileLink" href="user.php">your profile</a>
-    <a id="signUpLink" href="signUp.php">sign up</a>
+<?php
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+        //
+        // inlcude all libraries. 
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 
-</div>
+       print "<!-- require Database.php -->";
+       //include ('constants.php');
+       require ('database.php');
+       
 
-    <ul class="navBar">
-        <li><form class="searchListingsPage">
-            <input type="text" name="search" placeholder="Search..">
-            </form>
-        </li>
- 
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-    </ul>
+
+        // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+        //
+        // Set up database connection
+        //
+        // generally you dont need the admin on the web
+
+        print "<!-- make Database connections -->"; 
+        $dbName = 'CKWESTON_CATLIST';
+        
+        $dbUserName = 'ckweston' . '_reader';
+        $whichPass = "r"; //flag for which one to use.
+        $thisDatabaseReader = new Database($dbUserName, $whichPass, $dbName);
+        
+       
+        
+        $dbUserName = 'ckweston' . '_writer';
+        $whichPass = "w";
+        $thisDatabaseWriter = new Database($dbUserName, $whichPass, $dbName);
+        
+        
+        
+        $dbUserName = 'ckweston' . '_admin';
+        $whichPass = "a";
+        $thisDatabaseAdmin = new Database($dbUserName, $whichPass, $dbName);
+        
+
+        
+        
+        
+        ?> 
