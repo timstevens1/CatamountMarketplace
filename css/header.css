@@ -74,6 +74,10 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
 
 
 .navBar{
+    transform: translateX(-200%);
+    animation-delay: 1s;
+    animation: at-nav-slide-in 1.5s ease forwards;
+    z-index: 9999;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -86,6 +90,17 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     width: 100%;
 
 }
+@keyframes at-nav-slide-in {
+
+  0% {
+    transform: translateX(-200%);
+  }
+  
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .navBar  li {
     float: right;
     list-style: none;
@@ -118,4 +133,7 @@ background-image: -ms-linear-gradient(bottom, white 67.5%, green 32.5%);
     background-color: #ccc;
 }
 
-#searchBar input:focus{}
+#searchBar input:focus{
+    width: 100%;
+}
+
