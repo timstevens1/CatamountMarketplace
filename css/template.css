@@ -84,6 +84,15 @@ p, span, a, div {
     background-position: center;
     background-size: cover;
 }
+
+.watsonPictureInfo {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ADD8E6;
+    margin-top: 500px;
+}
+
 .mainWrap .jobsWrap {
             background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
