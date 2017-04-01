@@ -1,5 +1,6 @@
 <?php include("top.php");?>
 <?php include("header.php");?>
+<?php include("sendnotifications.php");?>
 <?php
 $postId = array(1);
 $query	=	'SELECT	fnkNetId, fldDescription, fldLocation, fldTitle, fldCondition, fldPostDate, fldPrice,
@@ -32,8 +33,28 @@ $netId =	$thisDatabaseReader->select($query,	$netId,	1,	0,	0,	0,	false,	false);
         <h1><?php print($postContent[0][3]); ?></h1>
         <h3><?php print($postContent[0][6]); ?></h3>
         <p class = "addPadding"><?php print($postContent[0][1]); ?></p>
+        
+        
+        
+        
         <a href="mailto:"<?php print($netId[0][0]); ?>"" class="difButton">Email User</a>
             <!--general info div-->
+        <?php
+        $currentPage = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        
+       echo" <form method='post' action='". $currentPage ."'>
+            <input type='text' name='message'>
+            <input type='submit' value='click' name='submit'> 
+        ";
+        $phoneNumber = 16036671346;
+        if(isset($_POST['submit'])){
+             sendMessage;
+             }
+        
+        ?>
+        
+        
+        
         <div style="margin-top: 30px;" class="genInfoWrap">
         <p class="genInfoP">
             <span>Location</span>
