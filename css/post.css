@@ -14,7 +14,14 @@
     align-items: center;
 }
 .topItemWrap > div {
-    border: 20px solid blue;
+    border: 2px solid blue;
+    height: 100%;
+}
+.topItemWrap > div:nth-child(1) {
+    width: 40%;
+}
+.topItemWrap > div:nth-child(2) {
+    width: 60%;
 }
 .bottomItemWrap {
     background-color: black;
