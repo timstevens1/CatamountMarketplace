@@ -3,7 +3,7 @@
 <?php include("watson.php"); ?>
 <?php include("watsonNews.php"); ?>
 
-<h1 "newsInfo">Picture Tags</h1>
+<h1 "newsInfo">Your Daily News</h1>
 <div class="newsWrap">
    
     <?php $x = WatsonNews();?>
