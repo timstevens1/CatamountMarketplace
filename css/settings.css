@@ -3,6 +3,8 @@ div.settingsWrap{
     background-color: lightblue;
     height: 80%;
     margin: auto;
+    margin-top: 200px;
+    margin-bottom: -20px;
 }
 
 div.settingsWrap p {
